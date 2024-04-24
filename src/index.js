@@ -10,7 +10,7 @@ app.get("/", async (req, res) => {
 app.get("/users/:id", async (req, res) => {
     const userId = req.params.id
     const requestSent = await axios.get(`https://discord.com/api/users/${userId}/profile`, {
-        headers: {Authorization: config.token}
+        headers: {Authorization: config.t}
     })
     res.status(201).json(requestSent.data)
 })
