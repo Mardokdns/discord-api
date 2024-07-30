@@ -1,2 +1,2 @@
 # Discord API
-Rest API to return information from a discord account.
+API para retornar informações de um ID de uma conta discord.
